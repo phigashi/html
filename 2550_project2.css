@@ -1,0 +1,83 @@
+:root {
+     --font-color: black; 
+     --font-kind: Comic Sans MS, cursive;
+     --b-font: DejaVu Sans Mono, monospace;
+}
+.parent-div {
+     width: 100%;
+     border: 100px solid lavender;
+}
+img {
+     margin: auto;
+}
+.wrap {
+     float: right;
+     background-color: white;  
+     margin: 0 0 10px 10px;
+     padding: 5px;
+     box-shadow: 0 0 30px lightslategray;
+     word-wrap: wrap;
+
+}
+.header {
+     color: var(--font-color);
+     font-size: 30px;
+     margin-top: 22.5px;
+     margin-bottom: 9px;
+     font-family: var(--font-kind);
+     text-decoration: underline;
+     background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210430/pngtree-blue-color-rectangle-shape-business-abstract-background-design-image_672225.jpg")
+}
+.header-2 {
+     color: var(--font-color);
+     font-family: var(--font-kind);
+}
+.body-info {
+     color: var(--font-color);
+     font-family: var(--b-font);
+     font-size: 17px;
+     margin: 15px;
+     background-image: url("https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D")
+}
+p {
+     color: var(--font-color);
+     text-indent: 5%;
+     margin-top: 15px;
+     margin-bottom: 12.75px;
+}
+.haiku-{
+     text-align: center;
+}
+.t-table {
+     font-family: var(--b-font);
+     border: 2px solid black;
+     width: 900px;
+     table-layout: fixed;
+     border-collapse: collapse;
+     border-spacing: 0;
+     margin: auto;
+     border: 2px solid #333;
+     background-image: url("https://c4.wallpaperflare.com/wallpaper/1017/684/942/surface-light-stripes-lines-wallpaper-preview.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+.t-table th, .t-table td {
+     border: 1px solid #ddd;
+     padding: 3px;
+     text-align: center;
+     vertical-align: middle;
+}
+tr:nth-child(even) {
+     background-color: rgb(159, 159, 221);
+}
+tr:nth-child(odd) {
+     background-color: cornflowerblue;
+}
+.day-header{
+     background-color: #dddd;     
+}
+.item{
+     border: 3px;
+     text-align: center;
+}
