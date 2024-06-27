@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dr. Supplement</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Shin Higa</div>
+            <div>
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#background">Background</a></li>
+                  <li><a href="#hobby">Hobby</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="sandwich-nav">
+            <div calss="logo">Shin Higa</div>
+            <div class="sandwich-menu">
+                <div class="sandwich-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#background" onclick="toggleMenu()">Background</a></li>
+                    <li><a href="#hobby" onclick="toggleMenu()">Hobby</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile" >
+            <div class="section_pic-container">
+                <img src="./assets/profile.jpg" alt="Shin Higa profile picture" />
+            </div>
+                <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title">Shin Higa</h1>
+                <p class="section_text_p2">Student at Utah Valley University</p>
+                <div class="btn-container">
+                    <button class="btn btn-color" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+        </section>
+        <section id="about">
+            <p class="section_text_p1">who is Shin Higa?</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+              <div class="section_pic-container">
+                <img
+                  src="./assets/my-about.jpg"
+                  alt="Profile picture"
+                  class="about-pic"
+                />
+              </div>
+              <div class="about-detail-container">
+                <div class="about-container">
+                  <div class="detail-container">
+                    <img
+                      src="./assets/experience.jpg"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>+2 years <br />Learning about coding <br/> Python, HTML, CSS, JS</p>
+                  </div>
+                  <div class="detail-container">
+                    <img
+                      src="./assets/education.jpg"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>Shohei High, Japan<br />A.S. Dgree at UVU</p>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <p>
+                    I was born in and raised in Saitama, Japan which is a hour away from Tokyo.<br>
+                    I speak Japanse and English. I have lived in the United State for 3 years.<br>
+                    I have experiences coding for over 2 years; however still learning. My favorite languages
+                    are HTML and CSS.<br>I love Japanese food, working out, and learning about nutrition. 
+                    My most favorite Japanese food is here in below. This video shows how to cook it<br>
+                  </p>
+                    <img
+                    src="./assets/misosoup.jpg"
+                    alt="misosoup"
+                    class="icon"
+                    onclick="location.href='https://www.youtube.com/watch?v=hJ5-UmLCdvs'"
+                    />
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="background">
+          <p class="section_text_p1">Explore My</p>
+          <h1 class="title">Background</h1>
+          <div class="bg-detail-container">
+            <div class="about-container">
+              <div class="detail-container">
+                <h2 class="bg-sub-title">Life Schedule</h2>
+                  <li class="life-text">November 8th, 2001</li> A baby was born
+                  <li class="life-text">May 12th, 2004</li> A little boy started Karate
+                  <li class="life-text">October 24th, 2010</li> A boy got a black belt
+                  <li class="life-text">March 25th, 2017</li> A man graduated middle school
+                  <li class="life-text">March 3rd, 2020</li> A man graduated high school
+                  <li class="life-text">December 16th, 2020</li> A man left his country for study abroad
+                  <li class="life-text">January 3rd, 2021</li> A man's new life journy started
+                  <li class="life-text">Present</li> Studying studying studying studying...
+              </div>
+              <div class="detail-container">
+                <h2 class="bg-sub-title">Life Story</h2>
+                <p class="bg-text">The first sport I have done was Karate when I was three years old. 
+                  And, I had kept doing Karate untill third grade at elementary school <br> and I got a black belt.
+                  <br> After that I started playing baseball untill I graduated high school. <br> I played outfield, especially 
+                  a right fielder. <br> I graduated high school and I moved away from Japan to Utah, 
+                  and that was a life-changing decition for me. <br> The first day I arrived at the U.S.
+                  that was crazy. <br> I studied English as much as I could when I was in Japan; however, 
+                  all the native speakers speak much faster than I expected and my brain didn't even work because  
+                  my flight duration was over 2 days!! <br> That's all I remembered from the first day of the United State. I actually didn't
+                  even remember anything other than that, so maybe I was completely out of mind and exhausted. <br>
+                  However, since I got used to live in here, I feel more comfortable than living in where I am from.
+                  I made so many nice, funny, crazy frineds and they always make me movtivate higher. <br> 
+                  I hope my English is getting better now haha. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="hobby">
+          <p class="section_text_p1">Things What</p>
+          <h1 class="title">I Love to Do</h1>
+          <div class="bg-detail-container">
+            <div class="about-container">
+              <div class="detail-container color-container">
+                <div class="pics-container">
+                  <img
+                    src="./assets/gym.jpg"
+                    alt="gym"
+                    class="hobby-img"
+                  />
+                </div>
+                <h2 class="bg-sub-title hobby-title">Workout</h2>
+              </div>
+              <div class="detail-container color-container">
+                <div class="pics-container">
+                  <img
+                    src="./assets/r1.jpg"
+                    alt="yzf-r1"
+                    class="hobby-img"
+                  />
+                </div>
+                <h2 class="bg-sub-title hobby-title">Motorcycle</h2>
+              </div>
+              <div class="detail-container hobby-container">
+                <div class="pics-container">
+                  <img
+                    src="./assets/family.jpg"
+                    alt="knk"
+                    class="hobby-img"
+                  />
+                </div>
+                <h2 class="bg-sub-title hobby-title">Family</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <p class="section_text_p1">If you need anything</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img
+                src="./assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+              />
+              <p><a href="mailto:examplemail@gmail.com">10988003@uvu.edu</a></p>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <nav>
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                  <li><a href="#background">Background</a></li>
+                  <li><a href="#hobby">Hobby</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <p>Copyright $*^%$jp; 2024 Shin Higa. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
